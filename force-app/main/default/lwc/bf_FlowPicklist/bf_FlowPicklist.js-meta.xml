@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>BakingForce - FLOW Picklist</masterLabel>
+    <description>A FLOW Picklist component for non Required pickslist fields.</description>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="label" label="Label" type="String" role="inputOnly" required="true" description="Provide the Label for the Component ex. Industry"/>
+            <property name="required" label="Required?" type="Boolean" role="inputOnly" required="true" description="Specify if the Picklist is required or not. NOTE: You can use the FLOW Constant values {!$GlobalConstant.True} or {!$GlobalConstant.False}."/>
+            <property name="required_Error_Message" label="Required Error Message" type="String" role="inputOnly" description="If the field is required, here you can provide the Required validation message. If you leave it EMPTY the default message is 'This field is required'. NOTE: You can use HTML to format the message."/>
+            <property name="value" label="Value" type="String" description="Provide the Value for the picklist.  In order to have the selected value of the picklist you need to add a variable in the section 'Store Output Values to Select Variables' ex {!var_Industry}. NOTE: You can use it to set the default value of the picklist eighter using plain text or a Flow variable."/>
+            <property name="object_API_Name" label="Object API Name" type="String" role="inputOnly" required="true" description="In this field you need to indicate the Object API name. NOTE: If you are using a Custom Object remember to use '__c' ex. Employee__c."/>
+            <property name="picklist_Field_API_Name" label="Picklist Field API Name" type="String" role="inputOnly" required="true" description="In this field you need to provide the Picklist field API name. NOTE: If you are using a Custom Field remember to use '__c' ex. Account_Type__c."/>
+            <property name="object_RecordType_Id" label="Record Type ID" type="String" role="inputOnly" description="Provide the Record Type ID to determine the picklist values to lookup. Leave it EMPTY if you want to use the Default Record Type."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

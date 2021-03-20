@@ -1,0 +1,19 @@
+<template>
+    <template if:true={required}>
+        <lightning-combobox
+            required
+            label={label}
+            value={value}
+            options={options}
+            onchange={handleChange} >
+        </lightning-combobox>
+    </template>
+    <template if:false={required}>
+        <lightning-combobox
+            label={label}
+            value={value}
+            options={options}
+            onchange={handleChange} >
+        </lightning-combobox>
+    </template>
+</template>
