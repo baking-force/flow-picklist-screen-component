@@ -8,8 +8,9 @@ You can find the limitations of the current component in this IDEA 👉 [Visual 
 
 Click on the desired link below, login and install it.
 
-[🌊 Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5Y000001imjw)
-[🔥 Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5Y000001imjw)
+<a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5Y000001imjw" target="_blank">🌊 Sandbox</a>
+
+<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5Y000001imjw" target="_blank">🔥 Production</a>
 
 ## Component Parameters
 
