@@ -37,6 +37,10 @@ In order to use the component and get the selected value you need to create a **
 
 ## Image examples
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/example-resources/1.png "Component")
+**Selecting component**
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/example-resources/2.png "Component Added & Parameters")
+![alt text](https://github.com/baking-force/flow-picklist-screen-component/raw/master/example-resources/1.png "Component")
+
+**Component Added & Parameters**
+
+![alt text](https://github.com/baking-force/flow-picklist-screen-component/raw/master/example-resources/2.png "Component Added & Parameters")
